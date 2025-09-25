@@ -1,0 +1,32 @@
+main {
+  background-color: #141526;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  background-color: #9193a8;
+  padding: 80px 45px;
+  border-radius: 100%;
+  font-size: 30px;
+  transition: all 0.2s;
+  font-family: "Times New Roman", Times, serif;
+}
+
+p {
+  margin-top: 10px;
+  color: white;
+  font-size: 24px;
+  opacity: 50%;
+}
+
+button:hover {
+  padding: 70px 30px;
+  background-color: #b494c0;
+}
